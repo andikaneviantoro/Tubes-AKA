@@ -6,7 +6,7 @@
 ## Kode Program
 
 ### 1. Iteratif
-```
+```py
 from memory_profiler import memory_usage
 import time
 import random
@@ -75,7 +75,7 @@ plt.show()
 ```
 
 ### 2. Rekursif
-```
+```py
 import sys
 from memory_profiler import memory_usage
 import time
@@ -156,7 +156,7 @@ plt.show()
 ```
 
 ### 3. Gabungan Iteratif dan Rekursif
-```
+```py
 def combine_performance_tables(iterative_df, recursive_df):
     # Add a column to each DataFrame indicating the algorithm type
     iterative_df['Algorithm'] = 'Iterative'
